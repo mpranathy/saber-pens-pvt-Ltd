@@ -1,0 +1,257 @@
+ /*=========================================
+
+    font family: Roboto Condensed
+    greenish blue: #34c6d3  (but,icons,lines,bg)
+    steel gray: #41464b  (headings)
+    blue bayoux: #64707b    (para)
+    white: #ffff    (text with black bg)
+    black: #0000
+
+===========================================*/
+ 
+ 
+ html,body {
+     height:100%;
+ }
+ 
+ p {
+     color: #64707b;
+     font-size: 16px;
+     font-weight: 300;
+ }
+ 
+ h3 {
+     color: #41464b;
+ }
+ 
+ .bg-parallax {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+ 
+ body {
+     font-family: "Roboto Conensed", sans-serif;
+ }
+ 
+ #home {
+     height:100%;
+ }
+ 
+ #home-cover {
+     height: 700px;
+     background-image: url("../img/penbg.jpg");
+     
+     
+ }
+ 
+ #home-content-box {
+     width: 100%;
+     height: 100%;
+     display: table;
+ }
+ 
+ #home-content-box-inner {
+     display: table-cell;
+     vertical-align: middle;
+     text-align: center;
+ }
+ 
+ #home-heading h3 {
+     color: #fff;
+     font-size: 5em;
+     font-weight: 700;
+     margin: 20px 0 20px 0;
+     text-transform: uppercase;
+ }
+ 
+ .btn-general {
+     border-color: #fff;
+     border-width: 2px;
+     border-radius: 0;
+     padding: 12px 26px 12px 26px;
+     font-size: 16px;
+     font-weight: 400;
+     text-transform: uppercase;
+ }
+ 
+ .btn-white {
+     border-color: #fff;
+     color: #fff;
+ }
+ 
+ .btn-white:hover,
+ .btn-white:focus {
+     background-color: #fff;
+     color: #41464b;
+ }
+ /*animation*/
+ 
+ #home-cover {
+     animation-delay: .1s;
+     animation-duration: .5s;
+ }
+ 
+ #home-heading {
+     animation-delay: .5s;
+     animation-duration: .5s;
+ }
+ 
+ #home-btn {
+     animation-delay: 1s;
+     animation-duration: .5s;
+ }
+
+ .social li {
+     list-style: none;
+     display: inline-block;
+     width: 32px;
+     height: 32px;
+     margin-right: 6px;
+     margin-top: 10px;
+ }
+.content-title h3 {
+     font-size: 30px;
+     font-weight: 700;
+     text-align: center;
+     margin: 30px 10px 30px 10px;
+     color: #41464b;
+ }
+ 
+ .content-title-underline {
+     width: 30px;
+     height: 3px;
+     background-color: #34c6d3;
+     margin: 0 auto 0 auto;
+ }
+ 
+ 
+ footer {
+     background-color: #41464b;
+     padding-top: 30px;
+     border-top: 5px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ #contact-left h3,
+ #contact-right h3 {
+     color: #fff;
+     font-size: 27px;
+     font-weight: 700;
+ }
+ 
+ #contact-left p {
+     color: #fff;
+     margin-bottom: 30px;
+ }
+ 
+ #contact-info {
+     background-image: url("../img/world-map.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ 
+ address {
+     color: #fff;
+ }
+ 
+ address strong,
+ #phone strong {
+     letter-spacing: 1px;
+ }
+ 
+ .social-icon:hover {
+     color: #34c6d3;
+ }
+ 
+ .icon-white {
+     color: #fff;
+ }
+ 
+ form .form-control {
+     background-color: transparent;
+     border-radius: 0;
+     border-color: #fff;
+     font-size: 17px;
+     font-weight: 300;
+     padding: 8px 16px;
+     margin-bottom: 20px;
+     color: #fff;
+ }
+ 
+ .navbar {
+     padding: 20px 0;
+ }
+ 
+ .ssnhr-top-nav {
+     background: rgba(0, 0, 0, 0.7);
+     padding: 7px 0;
+ }
+ 
+ .ssnhr-nav-wrapper {
+     padding: 0 85px;
+ }
+ 
+ .navbar-nav {
+     float: right;
+ }
+ 
+ .navbar-nav>li>a {
+     color: #fff;
+     font-size: 15px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 700;
+ }
+ 
+ .navbar-nav>li>a:hover,
+ .navbar-nav>li>a:focus {
+     color: #34c6d3;
+ }
+ 
+
+ #u {
+     margin-bottom: 0px;
+     margin-top: 80px;
+    margin-left: 50px;
+     margin-right: 50px;
+   
+ }
+#desc{  background-color: #eee;}
+ 
+ .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
